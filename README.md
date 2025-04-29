@@ -1,6 +1,113 @@
 # SkinCancerDetection
 SMART SKIN CARE: DEEP LEARNING IN SKIN CANCER DETECTION
 
+# Smart Skin Care: Deep Learning in Skin Cancer Detection
+
+A deep learning-based skin cancer detection system that utilizes image processing and convolutional neural networks (CNN) to identify melanoma, basal cell carcinoma, and squamous cell carcinoma with a 95.4% confidence level.
+
+## 🌟 Project Overview
+
+Skin cancer, especially melanoma, is one of the deadliest and most common cancers globally. Early detection can drastically improve survival rates. This project uses dermatologic spot images processed via advanced deep learning and spectral analysis techniques to enable non-invasive, fast, and accurate diagnosis.
+
+## 🔬 Key Features
+
+- 🎯 **High Accuracy**: Achieves 95.4% detection confidence using CNNs.
+- 🧠 **Deep Learning Model**: CNN integrated with Fourier spectral analysis.
+- ⚙️ **Web Deployment**: Flask-based web interface for image upload and prediction.
+- 🏥 **Non-Invasive Diagnosis**: Reduces reliance on biopsies.
+- 📊 **EDA & Segmentation**: Detailed preprocessing and lesion isolation.
+- 👥 **User Authentication**: Register/login system with secure password hashing.
+
+## 🧩 Modules
+
+- **Melanoma Detection**: Preprocessing, segmentation, augmentation.
+- **Squamous Cell Carcinoma**: CNN-based classification and performance tuning.
+- **Basal Cell Carcinoma**: Real-time deployment and predictions through a Flask app.
+
+## 🧱 Architecture
+
+```plaintext
+Input Image → Preprocessing → CNN + Spectral Analysis → Prediction → Web Output
+
+🛠️ Tech Stack
+Frontend: HTML/CSS (Flask templates)
+
+Backend: Python, Flask
+
+Model: TensorFlow/Keras (CNN)
+
+Database: SQLite (for user management)
+
+Libraries: NumPy, OpenCV, joblib, argon2, matplotlib
+
+📂 model/
+    └── model.h5
+📂 static/
+    └── uploads/
+📂 templates/
+    ├── index.html
+    ├── about.html
+    ├── register.html
+    ├── login.html
+    ├── predict.html
+    └── result.html
+📄 app.py
+📄 create_database.py
+📄 utils.py
+
+🚀 Setup Instructions
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/smart-skin-care.git
+cd smart-skin-care
+Create a virtual environment and install dependencies:
+
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # On Windows use venv\Scripts\activate
+pip install -r requirements.txt
+Run the Flask app:
+
+bash
+Copy
+Edit
+python app.py
+Open http://localhost:5000 in your browser.
+
+📈 Model Performance
+Accuracy: 95.4%
+
+Classifier: CNN with Softmax Output
+
+Dataset: ISIC Archive + Dermatology-labeled Images
+
+Classes: Melanoma, Basal Cell Carcinoma, Squamous Cell Carcinoma
+
+🔒 Security
+Passwords hashed using Argon2.
+
+Session-based authentication implemented.
+
+📚 References
+Refer to the REFERENCES section in the full report for all IEEE and clinical citations that contributed to this research.
+
+📝 Authors
+S. Harippriya [21CS089]
+
+R. Lakshana [21CS106]
+
+Project guided by Dr. G. Kavitha, Ph.D, Department of Computer Science and Engineering, Muthayammal Engineering College.
+
+📄 PUBLICATIONS
+[1]Dr.G.Kavitha, M.S(By Research), Ph.D, S.Harippriya, R.Lakshana, “Smart Skin Care: Deep Learning In Skin Cancer Detection” , National Conference on Innovative Trends in Technologies NCITT’25 organized by computer society of India KEC student branch, Perundurai, Erode – 638060, Tamilnadu, India, 01-March-2025.
+
+
+
 ![Screenshot 2025-03-24 110746](https://github.com/user-attachments/assets/712a7bb1-cc28-441d-823f-2ac632325d3f)
 
 ![Screenshot 2025-03-24 110804](https://github.com/user-attachments/assets/a99656fd-19f4-4992-9b8c-0e72bd0b9669)
