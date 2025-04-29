@@ -20,6 +20,9 @@ SMART SKIN CARE: DEEP LEARNING IN SKIN CANCER DETECTION
 ![Conference Completion laxs](https://github.com/user-attachments/assets/20fc59b5-8ee3-47f6-9961-fdfbe5b78135)
 
 
+Drive link for journal and reference IEEE paper : https://drive.google.com/drive/folders/13QIjjmnE1eRRtkcht5CFqvS2CqRYsu4F
+
+
 
 # Smart Skin Care: Deep Learning in Skin Cancer Detection
 
