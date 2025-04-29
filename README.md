@@ -1,6 +1,26 @@
 # SkinCancerDetection
 SMART SKIN CARE: DEEP LEARNING IN SKIN CANCER DETECTION
 
+
+
+![Screenshot 2025-03-24 110746](https://github.com/user-attachments/assets/712a7bb1-cc28-441d-823f-2ac632325d3f)
+
+![Screenshot 2025-03-24 110804](https://github.com/user-attachments/assets/a99656fd-19f4-4992-9b8c-0e72bd0b9669)
+
+![Screenshot 2025-03-24 110939](https://github.com/user-attachments/assets/ba6555b7-4e2f-4808-b7e7-fa8a9f08ee0d)
+
+![Screenshot 2025-03-24 111014](https://github.com/user-attachments/assets/ac0a249e-9604-44cc-b3c4-7e5f25e3d29b)
+
+![Screenshot 2025-03-24 111107](https://github.com/user-attachments/assets/234c24e6-a759-4257-8317-4824ab6e3790)
+
+![Screenshot 2025-03-24 111119](https://github.com/user-attachments/assets/4deff159-f232-41d7-9620-3d0492d911d4)
+
+![Conference Completion HP](https://github.com/user-attachments/assets/acd88712-21c0-45ce-a447-d1ab85a5e378)
+
+![Conference Completion laxs](https://github.com/user-attachments/assets/20fc59b5-8ee3-47f6-9961-fdfbe5b78135)
+
+
+
 # Smart Skin Care: Deep Learning in Skin Cancer Detection
 
 A deep learning-based skin cancer detection system that utilizes image processing and convolutional neural networks (CNN) to identify melanoma, basal cell carcinoma, and squamous cell carcinoma with a 95.4% confidence level.
@@ -105,20 +125,4 @@ Project guided by Dr. G. Kavitha, Ph.D, Department of Computer Science and Engin
 
 📄 PUBLICATIONS
 [1]Dr.G.Kavitha, M.S(By Research), Ph.D, S.Harippriya, R.Lakshana, “Smart Skin Care: Deep Learning In Skin Cancer Detection” , National Conference on Innovative Trends in Technologies NCITT’25 organized by computer society of India KEC student branch, Perundurai, Erode – 638060, Tamilnadu, India, 01-March-2025.
-
-
-
-![Screenshot 2025-03-24 110746](https://github.com/user-attachments/assets/712a7bb1-cc28-441d-823f-2ac632325d3f)
-
-![Screenshot 2025-03-24 110804](https://github.com/user-attachments/assets/a99656fd-19f4-4992-9b8c-0e72bd0b9669)
-
-![Screenshot 2025-03-24 110939](https://github.com/user-attachments/assets/ba6555b7-4e2f-4808-b7e7-fa8a9f08ee0d)
-
-![Screenshot 2025-03-24 111014](https://github.com/user-attachments/assets/ac0a249e-9604-44cc-b3c4-7e5f25e3d29b)
-
-![Screenshot 2025-03-24 111107](https://github.com/user-attachments/assets/234c24e6-a759-4257-8317-4824ab6e3790)
-
-![Screenshot 2025-03-24 111119](https://github.com/user-attachments/assets/4deff159-f232-41d7-9620-3d0492d911d4)
-
-
 
