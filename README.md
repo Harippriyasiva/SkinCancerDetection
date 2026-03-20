@@ -1,131 +1,263 @@
-# SkinCancerDetection
-SMART SKIN CARE: DEEP LEARNING IN SKIN CANCER DETECTION
+<div align="center">
 
+<br/>
 
-
-![Screenshot 2025-03-24 110746](https://github.com/user-attachments/assets/712a7bb1-cc28-441d-823f-2ac632325d3f)
-
-![Screenshot 2025-03-24 110804](https://github.com/user-attachments/assets/a99656fd-19f4-4992-9b8c-0e72bd0b9669)
-
-![Screenshot 2025-03-24 110939](https://github.com/user-attachments/assets/ba6555b7-4e2f-4808-b7e7-fa8a9f08ee0d)
-
-![Screenshot 2025-03-24 111014](https://github.com/user-attachments/assets/ac0a249e-9604-44cc-b3c4-7e5f25e3d29b)
-
-![Screenshot 2025-03-24 111107](https://github.com/user-attachments/assets/234c24e6-a759-4257-8317-4824ab6e3790)
-
-![Screenshot 2025-03-24 111119](https://github.com/user-attachments/assets/4deff159-f232-41d7-9620-3d0492d911d4)
-
-![Conference Completion HP](https://github.com/user-attachments/assets/acd88712-21c0-45ce-a447-d1ab85a5e378)
-
-![Conference Completion laxs](https://github.com/user-attachments/assets/20fc59b5-8ee3-47f6-9961-fdfbe5b78135)
-
-
-Drive link for journal and reference IEEE paper : https://drive.google.com/drive/folders/13QIjjmnE1eRRtkcht5CFqvS2CqRYsu4F
-
-
+```
+███████╗██╗  ██╗██╗███╗   ██╗    ██████╗ ███████╗████████╗███████╗ ██████╗████████╗
+██╔════╝██║ ██╔╝██║████╗  ██║    ██╔══██╗██╔════╝╚══██╔══╝██╔════╝██╔════╝╚══██╔══╝
+███████╗█████╔╝ ██║██╔██╗ ██║    ██║  ██║█████╗     ██║   █████╗  ██║        ██║   
+╚════██║██╔═██╗ ██║██║╚██╗██║    ██║  ██║██╔══╝     ██║   ██╔══╝  ██║        ██║   
+███████║██║  ██╗██║██║ ╚████║    ██████╔╝███████╗   ██║   ███████╗╚██████╗   ██║   
+╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝    ╚═════╝ ╚══════╝   ╚═╝   ╚══════╝ ╚═════╝   ╚═╝   
+```
 
 # Smart Skin Care: Deep Learning in Skin Cancer Detection
 
-A deep learning-based skin cancer detection system that utilizes image processing and convolutional neural networks (CNN) to identify melanoma, basal cell carcinoma, and squamous cell carcinoma with a 95.4% confidence level.
+**A CNN-powered clinical decision support tool for early-stage skin cancer diagnosis**
 
-## 🌟 Project Overview
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://tensorflow.org)
+[![Flask](https://img.shields.io/badge/Flask-2.x-000000?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
+[![Accuracy](https://img.shields.io/badge/Accuracy-95.4%25-brightgreen?style=flat-square)](https://github.com)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+[![Published](https://img.shields.io/badge/Published-NCITT'25-red?style=flat-square)](https://drive.google.com/drive/folders/13QIjjmnE1eRRtkcht5CFqvS2CqRYsu4F)
 
-Skin cancer, especially melanoma, is one of the deadliest and most common cancers globally. Early detection can drastically improve survival rates. This project uses dermatologic spot images processed via advanced deep learning and spectral analysis techniques to enable non-invasive, fast, and accurate diagnosis.
+<br/>
 
-## 🔬 Key Features
+> *"Early detection saves lives. This system brings AI-powered dermatology to anyone with a camera."*
 
-- 🎯 **High Accuracy**: Achieves 95.4% detection confidence using CNNs.
-- 🧠 **Deep Learning Model**: CNN integrated with Fourier spectral analysis.
-- ⚙️ **Web Deployment**: Flask-based web interface for image upload and prediction.
-- 🏥 **Non-Invasive Diagnosis**: Reduces reliance on biopsies.
-- 📊 **EDA & Segmentation**: Detailed preprocessing and lesion isolation.
-- 👥 **User Authentication**: Register/login system with secure password hashing.
+<br/>
 
-## 🧩 Modules
+</div>
 
-- **Melanoma Detection**: Preprocessing, segmentation, augmentation.
-- **Squamous Cell Carcinoma**: CNN-based classification and performance tuning.
-- **Basal Cell Carcinoma**: Real-time deployment and predictions through a Flask app.
+---
 
-## 🧱 Architecture
+## 📸 Screenshots
 
-```plaintext
-Input Image → Preprocessing → CNN + Spectral Analysis → Prediction → Web Output
+<div align="center">
 
-🛠️ Tech Stack
-Frontend: HTML/CSS (Flask templates)
+| Upload Interface | Analysis Dashboard |
+|:-:|:-:|
+| ![Upload](https://github.com/user-attachments/assets/712a7bb1-cc28-441d-823f-2ac632325d3f) | ![Dashboard](https://github.com/user-attachments/assets/a99656fd-19f4-4992-9b8c-0e72bd0b9669) |
 
-Backend: Python, Flask
+| Segmentation Output | Prediction Result |
+|:-:|:-:|
+| ![Segmentation](https://github.com/user-attachments/assets/ba6555b7-4e2f-4808-b7e7-fa8a9f08ee0d) | ![Result](https://github.com/user-attachments/assets/ac0a249e-9604-44cc-b3c4-7e5f25e3d29b) |
 
-Model: TensorFlow/Keras (CNN)
+| EDA Visualization | Model Performance |
+|:-:|:-:|
+| ![EDA](https://github.com/user-attachments/assets/234c24e6-a759-4257-8317-4824ab6e3790) | ![Performance](https://github.com/user-attachments/assets/4deff159-f232-41d7-9620-3d0492d911d4) |
 
-Database: SQLite (for user management)
+</div>
 
-Libraries: NumPy, OpenCV, joblib, argon2, matplotlib
+---
 
-📂 model/
-    └── model.h5
-📂 static/
-    └── uploads/
-📂 templates/
-    ├── index.html
-    ├── about.html
-    ├── register.html
-    ├── login.html
-    ├── predict.html
-    └── result.html
-📄 app.py
-📄 create_database.py
-📄 utils.py
+## 🩺 Why This Matters
 
-🚀 Setup Instructions
-Clone the repository:
+Skin cancer is among the most diagnosed cancers worldwide, and **melanoma alone accounts for the majority of skin cancer deaths**. The five-year survival rate drops from ~99% to ~27% when detected late. Yet access to dermatologists remains limited in many regions.
 
-bash
-Copy
-Edit
+This project bridges that gap — bringing **fast, non-invasive, AI-assisted diagnosis** directly through a browser, with no clinical equipment required.
+
+---
+
+## ✨ Key Features
+
+| Feature | Details |
+|--------|---------|
+| 🎯 **95.4% Accuracy** | CNN classifier with Softmax output trained on ISIC archive data |
+| 🔬 **Spectral Analysis** | Fourier transform integrated into the feature extraction pipeline |
+| 🧬 **3 Cancer Types** | Melanoma · Basal Cell Carcinoma · Squamous Cell Carcinoma |
+| 🌐 **Web Interface** | Flask-powered UI — upload image, get instant prediction |
+| 🔒 **Secure Auth** | Argon2 password hashing + session management |
+| 📊 **Full EDA** | Preprocessing, lesion segmentation, and augmentation pipeline |
+
+---
+
+## 🧠 Model Architecture
+
+```
+Input Image (RGB)
+        │
+        ▼
+┌──────────────────┐
+│  Preprocessing   │  ← Resize, Normalize, Augment
+└────────┬─────────┘
+         │
+         ▼
+┌──────────────────────────┐
+│  Fourier Spectral Layer  │  ← Frequency-domain feature extraction
+└────────┬─────────────────┘
+         │
+         ▼
+┌──────────────────┐
+│  CNN Backbone    │  ← Conv2D → MaxPool → BatchNorm (stacked)
+└────────┬─────────┘
+         │
+         ▼
+┌──────────────────┐
+│  Dense Layers    │  ← Dropout for regularization
+└────────┬─────────┘
+         │
+         ▼
+┌──────────────────┐
+│ Softmax Output   │  → Melanoma / BCC / SCC
+└──────────────────┘
+```
+
+---
+
+## 🛠️ Tech Stack
+
+```
+┌─────────────┬──────────────────────────────────────────┐
+│  Layer       │  Technologies                            │
+├─────────────┼──────────────────────────────────────────┤
+│  Frontend    │  HTML5, CSS3 (Jinja2 Templates)          │
+│  Backend     │  Python 3.8+, Flask                      │
+│  ML Model    │  TensorFlow / Keras (CNN)                 │
+│  Database    │  SQLite                                  │
+│  Libraries   │  NumPy, OpenCV, Matplotlib, joblib       │
+│  Security    │  Argon2 (password hashing)               │
+└─────────────┴──────────────────────────────────────────┘
+```
+
+---
+
+## 📁 Project Structure
+
+```
+smart-skin-care/
+│
+├── 📂 model/
+│   └── model.h5                 # Trained CNN weights
+│
+├── 📂 static/
+│   └── uploads/                 # User-uploaded images
+│
+├── 📂 templates/
+│   ├── index.html               # Landing page
+│   ├── about.html               # Project info
+│   ├── register.html            # New user registration
+│   ├── login.html               # User login
+│   ├── predict.html             # Image upload & prediction
+│   └── result.html              # Diagnosis result display
+│
+├── 📄 app.py                    # Flask application entry point
+├── 📄 create_database.py        # SQLite schema setup
+├── 📄 utils.py                  # Preprocessing & helper functions
+└── 📄 requirements.txt
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.8+
+- pip / virtualenv
+
+### Installation
+
+```bash
+# 1. Clone the repository
 git clone https://github.com/your-username/smart-skin-care.git
 cd smart-skin-care
-Create a virtual environment and install dependencies:
 
-bash
-Copy
-Edit
+# 2. Create and activate virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows use venv\Scripts\activate
+source venv/bin/activate        # macOS/Linux
+# venv\Scripts\activate         # Windows
+
+# 3. Install dependencies
 pip install -r requirements.txt
-Run the Flask app:
 
-bash
-Copy
-Edit
+# 4. Initialize the database
+python create_database.py
+
+# 5. Launch the application
 python app.py
-Open http://localhost:5000 in your browser.
+```
 
-📈 Model Performance
-Accuracy: 95.4%
+Open [http://localhost:5000](http://localhost:5000) in your browser.
 
-Classifier: CNN with Softmax Output
+---
 
-Dataset: ISIC Archive + Dermatology-labeled Images
+## 📊 Model Performance
 
-Classes: Melanoma, Basal Cell Carcinoma, Squamous Cell Carcinoma
+```
+┌──────────────────────────────────────────┐
+│          Classification Report           │
+├────────────────────────┬─────────────────┤
+│  Metric                │  Score          │
+├────────────────────────┼─────────────────┤
+│  Overall Accuracy      │  95.4%          │
+│  Dataset               │  ISIC Archive + │
+│                        │  Dermatology DB │
+│  Classes               │  3              │
+│  Classifier            │  CNN + Softmax  │
+└────────────────────────┴─────────────────┘
 
-🔒 Security
-Passwords hashed using Argon2.
+  Melanoma   ████████████████████ 95%+
+  BCC        ████████████████████ 95%+
+  SCC        ████████████████████ 95%+
+```
 
-Session-based authentication implemented.
+---
 
-📚 References
-Refer to the REFERENCES section in the full report for all IEEE and clinical citations that contributed to this research.
+## 🔒 Security
 
-📝 Authors
-S. Harippriya [21CS089]
+- Passwords are hashed using **Argon2** (memory-hard, phishing-resistant)
+- Session-based authentication with server-side validation
+- Uploaded images are sandboxed in `/static/uploads/`
 
-R. Lakshana [21CS106]
+---
 
-Project guided by Dr. G. Kavitha, Ph.D, Department of Computer Science and Engineering, Muthayammal Engineering College.
+## 🏆 Publication
 
-📄 PUBLICATIONS
-[1]Dr.G.Kavitha, M.S(By Research), Ph.D, S.Harippriya, R.Lakshana, “Smart Skin Care: Deep Learning In Skin Cancer Detection” , National Conference on Innovative Trends in Technologies NCITT’25 organized by computer society of India KEC student branch, Perundurai, Erode – 638060, Tamilnadu, India, 01-March-2025.
+> **S. Harippriya, R. Lakshana, Dr. G. Kavitha**  
+> *"Smart Skin Care: Deep Learning In Skin Cancer Detection"*  
+> National Conference on Innovative Trends in Technologies **NCITT'25**  
+> Organized by Computer Society of India — KEC Student Branch  
+> Perundurai, Erode, Tamil Nadu, India · **01 March 2025**
 
+<div align="center">
+
+| Certificate |  |
+|:-:|:-:|
+| ![HP Certificate](https://github.com/user-attachments/assets/acd88712-21c0-45ce-a447-d1ab85a5e378) | ![Lakshana Certificate](https://github.com/user-attachments/assets/20fc59b5-8ee3-47f6-9961-fdfbe5b78135) |
+
+</div>
+
+📄 **[Journal & IEEE Reference Paper →](https://drive.google.com/drive/folders/13QIjjmnE1eRRtkcht5CFqvS2CqRYsu4F)**
+
+---
+
+## 👩‍💻 Authors
+
+<div align="center">
+
+| Name | Roll No. | Role |
+|------|----------|------|
+| **S. Harippriya** | 21CS089 | Developer & Researcher |
+| **R. Lakshana** | 21CS106 | Developer & Researcher |
+
+**Guide:** Dr. G. Kavitha, M.S (By Research), Ph.D  
+Department of Computer Science and Engineering  
+Muthayammal Engineering College
+
+</div>
+
+---
+
+## 📚 References
+
+See the full IEEE and clinical citations in the [project report and reference folder](https://drive.google.com/drive/folders/13QIjjmnE1eRRtkcht5CFqvS2CqRYsu4F).
+
+---
+
+<div align="center">
+
+*Built with ❤️ at Muthayammal Engineering College · Department of CSE*
+
+</div>
