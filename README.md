@@ -2,6 +2,8 @@
 
 <br/>
 
+<div align="center">
+
 ```
 ███████╗██╗  ██╗██╗███╗   ██╗    ██████╗ ███████╗████████╗███████╗ ██████╗████████╗
 ██╔════╝██║ ██╔╝██║████╗  ██║    ██╔══██╗██╔════╝╚══██╔══╝██╔════╝██╔════╝╚══██╔══╝
@@ -10,6 +12,8 @@
 ███████║██║  ██╗██║██║ ╚████║    ██████╔╝███████╗   ██║   ███████╗╚██████╗   ██║   
 ╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝    ╚═════╝ ╚══════╝   ╚═╝   ╚══════╝ ╚═════╝   ╚═╝   
 ```
+
+</div>
 
 # Smart Skin Care: Deep Learning in Skin Cancer Detection
 
@@ -58,7 +62,7 @@
 
 Skin cancer is among the most diagnosed cancers worldwide, and **melanoma alone accounts for the majority of skin cancer deaths**. The five-year survival rate drops from ~99% to ~27% when detected late. Yet access to dermatologists remains limited in many regions.
 
-This project bridges that gap - bringing **fast, non-invasive, AI-assisted diagnosis** directly through a browser, with no clinical equipment required.
+This project bridges that gap — bringing **fast, non-invasive, AI-assisted diagnosis** directly through a browser, with no clinical equipment required.
 
 ---
 
@@ -69,7 +73,7 @@ This project bridges that gap - bringing **fast, non-invasive, AI-assisted diagn
 | 🎯 **95.4% Accuracy** | CNN classifier with Softmax output trained on ISIC archive data |
 | 🔬 **Spectral Analysis** | Fourier transform integrated into the feature extraction pipeline |
 | 🧬 **3 Cancer Types** | Melanoma · Basal Cell Carcinoma · Squamous Cell Carcinoma |
-| 🌐 **Web Interface** | Flask-powered UI - upload image, get instant prediction |
+| 🌐 **Web Interface** | Flask-powered UI — upload image, get instant prediction |
 | 🔒 **Secure Auth** | Argon2 password hashing + session management |
 | 📊 **Full EDA** | Preprocessing, lesion segmentation, and augmentation pipeline |
 
@@ -217,14 +221,14 @@ Open [http://localhost:5000](http://localhost:5000) in your browser.
 
 ## 🏆 Publications
 
-### 📰 Journal Publication - IJSREM (2025)
+### 📰 Journal Publication — IJSREM (2025)
 
 <div align="center">
 
 | | |
 |:--|:--|
 | **Journal** | International Journal of Scientific Research in Engineering and Management (IJSREM) |
-| **Volume / Issue** | Vol. 09, Issue 11 - November 2025 |
+| **Volume / Issue** | Vol. 09, Issue 11 — November 2025 |
 | **SJIF Rating** | 8.586 |
 | **ISSN** | 2582-3930 |
 | **DOI** | [10.55041/IJSREM54416](https://www.doi.org/10.55041/IJSREM54416) |
@@ -234,16 +238,16 @@ Open [http://localhost:5000](http://localhost:5000) in your browser.
 
 📥 **[Download Published Paper](https://ijsrem.com/download/smart-skin-care-deep-learning-in-skin-cancer-detection/)**  
 🌐 **[View on IJSREM](https://ijsrem.com/volume-09-issue-11-november-2025/)**  
-📂 **[Drive - Paper & References](https://drive.google.com/drive/folders/13QIjjmnE1eRRtkcht5CFqvS2CqRYsu4F)**
+📂 **[Drive — Paper & References](https://drive.google.com/drive/folders/13QIjjmnE1eRRtkcht5CFqvS2CqRYsu4F)**
 
 ---
 
-### 🎤 Conference Presentation - NCITT'25
+### 🎤 Conference Presentation — NCITT'25
 
 > **Dr. G. Kavitha · S. Harippriya · R. Lakshana**  
 > *"Smart Skin Care: Deep Learning In Skin Cancer Detection"*  
 > National Conference on Innovative Trends in Technologies **NCITT'25**  
-> Organized by Computer Society of India - KEC Student Branch  
+> Organized by Computer Society of India — KEC Student Branch  
 > Perundurai, Erode, Tamil Nadu, India · **01 March 2025**
 
 
